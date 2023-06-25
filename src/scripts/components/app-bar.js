@@ -6,7 +6,7 @@ class AppBar extends HTMLElement {
   render() {
     this.innerHTML = `
             <nav>
-                <button id="menu">
+                <button aria-label="hamburger_button" id="menu">
                   ☰
                 </button>
                 <div class="nav-brand"><a href="#">Los Buenos Restaurantes</a></div>
@@ -15,7 +15,7 @@ class AppBar extends HTMLElement {
                     <ul class="nav-list">
                         <li class="nav-items"><a href="#/home">Home</a></li>
                         <li class="nav-items"><a href="#/favorite">Favorite</a></li>
-                        <li class="nav-items"><a href="https://github.com/UKnow11" target="_blank">About Us</a></li>
+                        <li class="nav-items"><a href="https://github.com/UKnow11" target="_blank" rel="noopener">About Us</a></li>
                     </ul>
                 </div>
             </nav>

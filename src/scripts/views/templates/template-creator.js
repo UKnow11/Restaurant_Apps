@@ -41,7 +41,7 @@ const createCustomerReviewsBox = (restaurant) => {
 
 const createLikeRestaurantButtonTemplate = () => `
   <button aria-label="suka restoran ini" id="likeButton" class="like">
-     <i class="fa fa-heart-o" aria-hidden="true"></i>
+    <i class="fa fa-heart-o" aria-hidden="true"></i>
   </button>
 `;
 
@@ -54,7 +54,7 @@ const createUnlikeRestaurantButtonTemplate = () => `
 const createRestaurantDetailTemplate = (restaurant) => `
         <h2 class="text-center restaurant__title" tabindex="0">${restaurant.name}</h2>
         <div id="content-detail">
-             <article tabindex="0" class="mb-2">
+            <article tabindex="0" class="mb-2">
                 <div class="wrapper-information">
                     <picture>
                       <source media="(max-width: 600px)" srcset="${CONFIG.BASE_IMAGE_URL_SMALL + restaurant.pictureId}">
